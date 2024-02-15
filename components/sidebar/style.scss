@@ -1,0 +1,28 @@
+.body {
+  position: absolute;
+  height: 100dvh;
+  width: 20dvw;
+  border-right-width: 1px;
+  border-color: slategrey;
+  padding: 20px;
+}
+
+.list {
+  margin-top: 3vh;
+}
+
+.itemList {
+  :hover {
+    font-weight: 800;
+  }
+
+  :active {
+    text-decoration: underline;
+  }
+}
+
+.text {
+  font-size: 1vw;
+  color: black;
+  padding-bottom: 10px;
+}
