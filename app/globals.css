@@ -1,0 +1,11 @@
+/* stylelint-disable declaration-block-no-redundant-longhand-properties */
+/* stylelint-disable scss/at-rule-no-unknown */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #fff;
+}
